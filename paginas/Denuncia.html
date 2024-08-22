@@ -1,0 +1,39 @@
+<D!OCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Denuncia de Ciberacoso</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/titulo.jpg" alt="Ciberacoso Profesional">
+    </header>
+    <main>
+        <h1>Formulario de Denuncia de ciberbullying</h1>
+        <form action="procesar_denuncia.php" method="POST" enctype="multipart/form-data">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="motivo">Motivo de la denuncia:</label>
+            <textarea id="motivo" name="motivo" rows="4" required></textarea>
+            
+            <label for="archivos">imágenes y videos</label>
+            <input type="file" id="archivos" name="archivos" accept=".jpg, .jpeg, .png, .gif, .mp4" multiple>
+</video>
+
+            <button type="submit">Enviar Denuncia</button>
+            
+         
+            
+        </form>
+    </main>
+    <footer>
+        <p>Contacto: cjosegubeda@gmail.com</p>
+    </footer>
+</body>
+</html>

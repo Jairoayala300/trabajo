@@ -1,0 +1,42 @@
+/* Estilos generales del menú */
+.menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #333; /* Color de fondo del menú */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu img {
+    width: 50px; /* Ajusta el tamaño de tu imagen de menú */
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 5px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white; /* Color del texto del menú */
+}
+
+/* Estilos del submenú */
+.submenu-items {
+    display: none;
+    position: absolute;
+    background-color: #333; /* Color de fondo del submenú */
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 100px; /* Ajusta la posición del submenú */
+}
+
+.submenu:hover .submenu-items {
+    display: block;
+}

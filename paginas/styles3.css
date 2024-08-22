@@ -1,0 +1,56 @@
+nav {
+    background-color: #1a1a1a;
+    padding: 10px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    /* Add police-themed styling */
+    border: 1px solid #0073e6; /* Police blue border */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0073e6; /* Hover color change */
+}
+
+/* Adjust the size of the menu icon */
+.checkbtn {
+    font-size: 30px;
+}
+
+/* Adjust the size and style of the logo for a police theme */
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #fff; /* White border */
+    border-radius: 5px;
+}
+
+/* Adjust the size of the police-themed images */
+.imagen1 {
+    width: 100%; /* Adjust the width as needed */
+    max-height: 400px; /* Limit the maximum height */
+}
+
+.imagen2 {
+    width: 100%; /* Adjust the width as needed */
+    max-height: 300px; /* Limit the maximum height */
+}

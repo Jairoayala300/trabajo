@@ -1,0 +1,147 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos para la sección del encabezado (hero) */
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la sección "Acerca de Nosotros" */
+.acerca {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la sección "Servicios" */
+.servicios {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.servicios ul {
+    list-style: none;
+}
+
+.servicios ul li {
+    margin-bottom: 10px;
+}
+
+.servicios ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Estilos para la sección "Contacto" */
+.contacto {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacto p {
+    margin-bottom: 10px;
+}
+/* Estilos para el menú desplegable */
+.menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+.menu.show {
+    display: block;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+}
+
+.menu li {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+/* Estilos para el menú desplegable en dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .menu {
+        position: static;
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    header {
+        text-align: left;
+    }
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

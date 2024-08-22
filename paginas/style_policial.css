@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del menú */
+.menu {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Inicialmente, ocultar el menú fuera de la pantalla */
+    width: 300px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: left 0.3s;
+}
+
+.menu-button, .menu-close-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos del encabezado y el pie de página */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}

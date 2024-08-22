@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Color de fondo semitransparente */
+    padding: 20px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilos para el submenú */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+    min-width: 160px;
+    z-index: 1;
+}
+
+#more:hover .submenu {
+    display: block; /* Mostrar el submenú al pasar el mouse sobre "Más" */
+}

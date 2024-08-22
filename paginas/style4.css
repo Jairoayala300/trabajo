@@ -1,0 +1,46 @@
+/* Estilos para el menú principal */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Color de fondo del menú */
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Color del texto del menú */
+    font-weight: bold;
+}
+
+/.menu-esquinero {
+    position: fixed;
+    top: 10px; /* Ajusta la distancia desde la parte superior según sea necesario */
+    right: 10px; /* Ajusta la distancia desde la derecha según sea necesario */
+    background-color: #333; /* Color de fondo del menú */
+    padding: 10px;
+}
+
+.menu-esquinero ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-esquinero li {
+    margin-bottom: 10px;
+}
+
+.menu-esquinero a {
+    text-decoration: none;
+    color: #fff; /* Color del texto del menú */
+    font-weight: bold;
+}
+
+/* Cambiar estilo al hacer hover sobre enlaces */
+.menu-esquinero a:hover {
+    color: #ff0000; /* Color al hacer hover */
+}
